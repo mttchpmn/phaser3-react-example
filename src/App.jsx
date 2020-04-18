@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Phaser Game</h1>
+        <h1 style={{ textAlign: "center" }}>React - Phaser3 Platformer</h1>
         <Game />
       </div>
     );

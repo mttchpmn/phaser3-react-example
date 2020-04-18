@@ -27,7 +27,17 @@ class Game extends Component {
   }
 
   render() {
-    return <div id="game-container" />;
+    return (
+      <div
+        id="game-container"
+        style={{
+          backgroundColor: "#505050",
+          padding: 20,
+          display: "flex",
+          justifyContent: "center",
+        }}
+      />
+    );
   }
 }
 

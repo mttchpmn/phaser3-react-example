@@ -1,5 +1,5 @@
 import React from "react";
-import Phaser from "phaser";
+
 import Game from "./Game";
 
 class App extends React.Component {
